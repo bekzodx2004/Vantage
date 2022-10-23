@@ -1,0 +1,29 @@
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+  & > li {
+    list-style: none;
+    margin: 19px;
+    & > a {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      /* identical to box height, or 309% */
+
+      letter-spacing: 2.7625px;
+      text-transform: uppercase;
+
+      color: #ffffff;
+
+      text-decoration: none;
+    }
+  }
+
+  &>li :hover{
+//    color:  #99823D;
+    border-bottom: 1px solid #fff;
+  }
+}

@@ -1,0 +1,57 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 120px;
+  padding-bottom: 38px;
+  background: #EBEBEB;
+
+  & > .about__katta {
+    max-width: 684px;
+    width: 95%;
+    margin: 15px;
+
+    & > h3 {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      /* identical to box height, or 151% */
+
+      letter-spacing: 2.7625px;
+      text-transform: uppercase;
+
+      color: #99823d;
+    }
+    & > h2 {
+      font-family: "Teko";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 53px;
+      /* or 100% */
+
+      text-transform: capitalize;
+
+      color: #141414;
+      margin-top: 5px;
+      margin-bottom: 12px;
+    }
+
+    & > p {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      /* or 150% */
+
+      color: #141414;
+      margin-top: 16px;
+    }
+  }
+
+  &>.about__news{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}

@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #141414;
+
+  padding-left: 4%;
+  padding-right: 4%;
+  position: relative;
+
+  & > .icon {
+    display: flex;
+    flex-wrap: wrap;
+    & > img {
+      position: absolute;
+      top: 0;
+      left: 4%;
+      z-index: 1;
+    }
+    h3 {
+      margin-top: 26px;
+      margin-left: 34px;
+      margin-left: 360px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 9px;
+      /* identical to box height, or 170% */
+
+      text-align: center;
+
+      color: rgba(255, 255, 255, 0.75);
+
+      & > font {
+        margin-left: 3px;
+        margin-right: 5px;
+        font-weight: 400;
+        font-size: 10px;
+        /* identical to box height, or 153% */
+
+        text-align: center;
+
+        color: #ffffff;
+      }
+    }
+  }
+}

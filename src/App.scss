@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(./Components/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Teko";
+  src: url(./Components/fonts/teko/Teko-Medium.ttf);
+}
+
+.App {
+  max-width: 1440px;
+  width: 100%;
+  overflow: hidden;
+  margin: auto;
+  background-color: #ffffff;
+}
+
+@media screen and(max-width:1200px) {
+  .App {
+    & > .header {
+      & > .icon {
+        max-width: 500px;
+        height: 80px;
+        align-items: center;
+        justify-content: space-evenly;
+        & > img {
+          position: static;
+          height: 80px;
+        }
+        & > h3 {
+          margin: 10px;
+        }
+      }
+    }
+    & > .top {
+      & > .top__text {
+        padding-right: 34px;
+        background: url(./Components/images/h4.png) no-repeat bottom right /
+          409px 329px;
+
+        & > div {
+          padding: 50px;
+          max-width: 500px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width:1024px) {
+  .App {
+    & > .header {
+      padding: 0;
+      justify-content: space-evenly;
+      & > .icon {
+        padding-bottom: 15px;
+      }
+    }
+    & > .top {
+      padding: 0;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+
+      & > .top__img {
+        max-width: 1024px;
+        width: 100%;
+
+        & > img {
+          width: 100%;
+        }
+      }
+
+      & > .top__text {
+        max-width: 1024px;
+        width: 100%;
+        position: static;
+        padding: 0;
+        background: url(./Components/images/h4.png) center / cover;
+
+        & > div {
+          padding: 50px;
+          max-width: 540px;
+          margin: auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width:768px) {
+  .App {
+    & > .brands {
+      & > .brands__navbar {
+        margin: 0;
+        width: 100%;
+        justify-content: space-evenly;
+      }
+    }
+
+    & > .footer {
+      & > form {
+        width: 100%;
+        margin: 0;
+        position: static;
+      }
+      & > div {
+        padding: 0;
+        justify-content: space-evenly;
+      }
+    }
+  }
+}
+
+@media screen and(max-width:576px) {
+  .App {
+    & > .top {
+      & > .top__text {
+        & > div {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+
+          & > h2 {
+            font-size: 30px;
+          }
+        }
+      }
+    }
+
+    & > .about {
+      padding-top: 20px;
+      & > .about__katta {
+        & > h3 {
+          text-align: center;
+        }
+        & > h2 {
+          text-align: center;
+          font-size: 30px;
+          width: 300px;
+          margin: auto;
+        }
+      }
+    }
+    & > .clients {
+      & > .clients__card {
+        margin: 5px;
+        & > h2 {
+          font-size: 30px;
+        }
+      }
+    }
+    & > .services {
+      padding-top: 10px;
+      padding-bottom: 20px;
+
+      & > h5 {
+        margin-top: 20px;
+      }
+      & > h2 {
+        font-size: 30px;
+      }
+
+      & > .services__block {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        & > .services__block__card {
+          padding-top: 10px;
+          padding-bottom: 10px;
+        }
+      }
+    }
+    & > .brands {
+      & > .brands__block {
+        flex-direction: column;
+      }
+    }
+
+    & > .footer {
+      padding-bottom: 20px;
+      & > form {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

@@ -1,0 +1,114 @@
+.top {
+  padding-left: 4%;
+  padding-right: 4%;
+
+  background-color: #141414;
+  display: flex;
+  position: relative;
+
+  & > .top__img {
+    max-width: 978px;
+    width: 95%;
+    & > img {
+      width: 100%;
+    }
+
+    & > ul {
+      justify-content: start;
+      padding-left: 10px;
+      background-color: #ffffff;
+      & > li {
+        margin-right: 37px;
+        margin-left: 3px;
+        & > a {
+          font-family: "Open Sans";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+
+          letter-spacing: 2.975px;
+          text-transform: uppercase;
+
+          color: #000000;
+        }
+      }
+    }
+  }
+
+  & > .top__text {
+    position: absolute;
+    bottom: 0;
+    right: 4%;
+    padding-right: 68px;
+    padding-bottom: 135px;
+    background: url(../images/h4.png) no-repeat bottom right / 489px 329px;
+
+    & > div {
+      padding: 98px;
+      box-sizing: border-box;
+      max-width: 584px;
+      width: 100%;
+      background-color: #fff;
+
+      & > h3 {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        /* identical to box height, or 151% */
+
+        letter-spacing: 2.7625px;
+        text-transform: uppercase;
+
+        color: #99823d;
+      }
+
+      & > h2 {
+        font-family: "Teko";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 67px;
+        /* or 100% */
+
+        text-transform: capitalize;
+
+        color: #141414;
+      }
+
+      & > p {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        /* or 150% */
+
+        color: #141414;
+      }
+
+      & > button {
+        width: 170px;
+        margin: 9px;
+        height: 68px;
+        border: none;
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+
+        text-align: center;
+        letter-spacing: 2.975px;
+        text-transform: uppercase;
+
+        color: #ffffff;
+      }
+
+      & > :nth-child(4) {
+        background: #99823d;
+      }
+
+      & > :nth-child(5) {
+        background: #141414;
+      }
+    }
+  }
+}

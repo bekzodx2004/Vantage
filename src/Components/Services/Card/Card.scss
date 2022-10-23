@@ -1,0 +1,52 @@
+.services__block__card {
+  max-width: 391px;
+  width: 110%;
+  box-sizing: border-box;
+  padding: 34px;
+
+  & > div {
+    display: flex;
+    align-items: center;
+    & > img {
+      margin-right: 17px;
+    }
+    & > div {
+      & > h5 {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        /* identical to box height, or 151% */
+
+        letter-spacing: 2.7625px;
+        text-transform: uppercase;
+
+        color: #99823d;
+      }
+      & > h3 {
+        font-family: "Teko";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        /* identical to box height, or 100% */
+
+        text-transform: capitalize;
+
+        color: #141414;
+        margin-top: 11px;
+      }
+    }
+  }
+
+  & > p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    /* or 150% */
+
+    color: #141414;
+    margin-top: 27px;
+    width: 292px;
+  }
+}

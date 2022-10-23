@@ -1,0 +1,48 @@
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 50px;
+  background: #EBEBEB;
+
+  & > .clients__card {
+    margin: 20px;
+    & > h2 {
+      font-family: "Teko";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 59px;
+      /* identical to box height, or 99% */
+
+      text-align: center;
+
+      color: #141414;
+    }
+
+    & > h5 {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      /* identical to box height, or 149% */
+
+      text-align: center;
+      letter-spacing: 2.975px;
+      text-transform: uppercase;
+
+      color: #99823d;
+    }
+  }
+
+  &>.katak{
+    width: 9px;
+    height: 9px;
+    background-color: #99823d;
+  }
+
+  &>:last-child{
+    display: none;
+  }
+
+}
